@@ -1,7 +1,7 @@
 from PIL import Image
 from google import genai
 
-client = genai.Client(api_key="AIzaSyCq84fCMDrHedjuDrQ6PXmsR_tiCSJ8QTU")
+client = genai.Client(api_key="")
 
 image = Image.open("/Users/cc/workspace/images/ggb.jpeg")
 response = client.models.generate_content(
